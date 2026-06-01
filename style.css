@@ -47,7 +47,7 @@ section {
 }
 .navbar {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 1000;
     transition: all 0.3s ease;
@@ -55,7 +55,7 @@ section {
 
 .navbar.scrolled {
     background-color: #082c21;
-    /* padding: 9px 0; */
+    padding: 9px 0;
     box-shadow: 0 4px 15px rgba(0,0,0,.3);
 }
 .home-side {
