@@ -19,3 +19,20 @@ window.addEventListener('scroll', () => {
         btn.style.opacity = '0.8';
     }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    const menu = document.getElementById('menu');
+    const icon = document.getElementById('menuIcon');
+
+    menu.addEventListener('show.bs.collapse', function () {
+        icon.classList.remove('ri-menu-fill');
+        icon.classList.add('ri-close-line');
+    });
+
+    menu.addEventListener('hide.bs.collapse', function () {
+        icon.classList.remove('ri-close-line');
+        icon.classList.add('ri-menu-fill');
+    });
+
+});

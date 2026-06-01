@@ -101,6 +101,14 @@ section {
     0%, 100% { transform: translate(-50%, 0); }
     50% { transform: translate(-50%, 10px); }
 }
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:hover,
+.navbar-toggler:active{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 
 html {
