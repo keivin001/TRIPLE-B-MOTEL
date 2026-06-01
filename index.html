@@ -444,32 +444,24 @@
 
                     <h3 class="mb-4">Send a Message</h3>
 
-                    <form>
+                    <form action="https://formspree.io/f/mbdbvqrl" method="POST">
                         <div class="mb-3">
-                            <input type="text"
-                                class="form-control form-control-lg"
-                                placeholder="Your Name">
+                            <input type="text" name="Name" class="form-control form-control-lg" placeholder="Your Name">
                         </div>
 
                         <div class="mb-3">
-                            <input type="email"
-                                class="form-control form-control-lg"
-                                placeholder="Your Email">
+                            <input type="email"  name="Email" class="form-control form-control-lg"  placeholder="Your Email">
                         </div>
 
                         <div class="mb-3">
-                            <input type="tel"
-                                class="form-control form-control-lg"
-                                placeholder="Phone Number">
+                            <input type="tel"  name="Phone" class="form-control form-control-lg" placeholder="Phone Number">
                         </div>
 
                         <div class="mb-4">
-                            <textarea rows="5"
-                                class="form-control"
-                                placeholder="Your Message"></textarea>
+                            <textarea rows="5" name="Message"  class="form-control"  placeholder="Your Message"></textarea>
                         </div>
 
-                        <button class="btn btn-warning w-100 py-3 fw-bold">
+                        <button type="submit" class="btn btn-warning w-100 py-3 fw-bold">
                           <i class="ri-send-ins-line"></i>
                             Send Message
                         </button>
