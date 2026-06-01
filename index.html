@@ -38,7 +38,7 @@
         </div>
     </div>
 </nav>
-<section class="home-side" id="home-side home">
+<section class="home-side" id="home">
     <div class="container d-flex flex-column align-items-center justify-content-center text-center h-100">
         <img src="./img/favicon.png" alt="" class="img-fluid favicon_02 mb-4">
         <h1 class="display-4 fw-bold text-warning">TRIPLE B MOTELi</h1>
@@ -53,7 +53,7 @@
 </section>
 </section>
 <!-- end of home side -->
-<section class="about-side py-5" id="about-side second-page">
+<section class="about-side py-5" id="about">
     <div class="container ">
        <div class="d-flex w-100 flex-column align-items-center justify-content-center text-center h-100">
         <h2><i class="ri-star-s-line fs-5 text-warning"></i><span class="fs-5 px-3 fw-semibold text-warning" style="font-family: font-times;">Welcome</span><i class="ri-star-s-line fs-5 text-warning"></i></h2>
@@ -91,7 +91,7 @@
     </div>
 </section>
 <!-- end of about side -->
-<section class="restaurant-side py-5"  id="restaurant-side" style="background-color: #082c21; height: 100%;" >
+<section class="restaurant-side py-5"  id="restaurant" style="background-color: #082c21; height: 100%;" >
     <div class="container d-flex w-100 flex-column align-items-center text-center">
         <h2><i class="ri-star-s-line fs-5 text-warning"></i><span class="fs-6 px-3 fw-semibold text-warning" style="font-family: 'Playfair Display', serif;">Dining</span><i class="ri-star-s-line fs-5 text-warning"></i></h2>
           <h1 class=" display-6 fw-bold  mt-3 mb-2 " style="font-family: 'Playfair Display', serif; font-style: normal; color: white;">Our Restaurant</h1>
@@ -137,7 +137,7 @@
     </div>
 </section>
 
-<section class="bar-recreation-side py-5 bg-light" id="bar-recreation-side">
+<section class="bar-recreation-side py-5 bg-light" id="bar">
     <div class="container-fluid py-5 d-flex flex-column align-items-center">
            <h2><i class="ri-star-s-line fs-5 text-warning"></i><span class="fs-6 px-3 fw-semibold text-warning" style="font-family: 'Playfair Display', serif;">Leisure</span><i class="ri-star-s-line fs-5 text-warning"></i></h2>
           <h1 class=" display-6 fw-bold  mt-3 mb-2 " style="font-family: 'Playfair Display', Times, serif; font-style: normal; color: #082c21;">Bar & Recreation</h1>
@@ -190,8 +190,8 @@
     </div>
 </section>
     <!-- end of  Bar & Recreation side  -->
-<section class="gallery-side py-5" id="gallery-side" style="background: #082c21;">
-    <div class="container-fluid d-flex flex-column align-items-center">
+<section class="gallery-side py-5" id="" style="background: #082c21;">
+    <div class="container-fluid d-flex flex-column align-items-center" id="gallery">
          <h2><i class="ri-star-s-line fs-5 text-warning"></i><span class="fs-6 px-3 fw-semibold text-warning" style="font-family: 'Playfair Display', serif;">Outdoors</span><i class="ri-star-s-line fs-5 text-warning"></i></h2>
           <h1 class=" display-6 fw-bold  mt-3 mb-2 " style="font-family: 'Playfair Display', serif; font-style: normal; color: #fff;">Gardens & Outdoor Spaces </h1>
         <div class="bottom-line text-center" style="width: 10rem; height: 3px; background: #d4af37; border-radius: 4px; margin-bottom: 40px"></div>
@@ -228,7 +228,7 @@
     </div>
 </section>
 <!-- end of  Gardens & Outdoor Spaces  side -->
-<section class="contact-side py-5  bg-light" id="contact-side">
+<section class="contact-side py-5  bg-light" id="facilities">
     <div class="container-fluid">
         <div class="text-center">
             <h2><i class="ri-star-s-line fs-5 text-warning"></i> <span class="fs-6 px-3 fw-semibold text-warning" style="font-family:'Times New Roman', serif;">Services</span> <i class="ri-star-s-line fs-5 text-warning"></i></h2>
@@ -314,7 +314,7 @@
     </div>
 </section>
 
-<section class="contact-side py-5" style="background: #082c21;" id="contact-side">
+<section class="contact-side py-5" style="background: #082c21;" id="">
     <div class="container-fluid">
         <div class="text-center">
             <h2><i class="ri-star-s-line fs-5 text-warning"></i> <span class="fs-6 px-3 fw-semibold text-warning" style="font-family:'Times New Roman', serif;">Photos</span> <i class="ri-star-s-line fs-5 text-warning"></i></h2>
@@ -368,7 +368,7 @@
         </div>
         </section>
         <!-- end of -->
-<section class="py-5" style="background:#f5f2eb;" id="reserveTableSection">
+<section class="py-5" style="background:#f5f2eb;" id="contact">
     <div class="container">
         <div class="row g-5 align-items-start">
 
@@ -477,6 +477,8 @@
     </div>
 </section>
 
+
+
 <footer class="footer-section py-5">
     <div class="container-fluid">
 
@@ -540,7 +542,38 @@
 
     </div>
 </footer>
+<!--  -->
+<!-- Mobile Bottom Navigation -->
+<div class="mobile-footer fixed-bottom d-md-none">
+    <div class="d-flex justify-content-around align-items-center py-2">
+        
+        <a href="#home" class="text-center text-decoration-none text-white" id="home">
+            <i class="ri-home-line fs-5 d-block" id="home"></i>
+            <small>Home</small>
+        </a>
 
+        <a href="#about" class="text-center text-decoration-none text-white">
+            <i class="ri-restaurant-line fs-5 d-block"></i>
+            <small>Menu</small>
+        </a>
+
+        <a href="#gallery" class="text-center text-decoration-none text-white">
+            <i class="ri-image-line fs-5 d-block"></i>
+            <small>Gallery</small>
+        </a>
+
+        <a href="#facilities" class="text-center text-decoration-none text-white">
+            <i class="ri-building-line fs-5 d-block"></i>
+            <small>Facilities</small>
+        </a>
+
+        <a href="#contact" class="text-center text-decoration-none text-white">
+            <i class="ri-phone-line fs-5 d-block"></i>
+            <small>Contact</small>
+        </a>
+
+    </div>
+</div>
     <!-- boostrap script side -->
      <script src="./script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
